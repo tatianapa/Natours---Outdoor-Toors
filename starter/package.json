@@ -1,0 +1,28 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page written in pure css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatianapa/Natours---Outdoor-Toors.git"
+  },
+  "keywords": [
+    "CSS",
+    "Html",
+    "Sass",
+    "SCSS"
+  ],
+  "author": "Tatiana Pavlov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatianapa/Natours---Outdoor-Toors/issues"
+  },
+  "homepage": "https://github.com/tatianapa/Natours---Outdoor-Toors#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
