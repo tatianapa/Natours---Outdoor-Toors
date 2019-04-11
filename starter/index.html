@@ -14,7 +14,11 @@
     <body>
         <div class="navigation">
             <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-            <label for="navi-toggle" class="navigation__button">MENU</label>
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">
+                    &nbsp;
+                </span>
+            </label>
             <div class="navigation__background">&nbsp;</div>
             <nav class="navigation__nav">
                 <ul class="navigation__list">
@@ -125,7 +129,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Most popular tours
@@ -161,7 +165,7 @@
                                             $297
                                         </p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -195,7 +199,7 @@
                                                     $453
                                                 </p>
                                             </div>
-                                            <a href="#" class="btn btn--white">Book now!</a>
+                                            <a href="#popup" class="btn btn--white">Book now!</a>
                                         </div>
                                     </div>
                                 </div>
@@ -229,7 +233,7 @@
                                                     $620
                                                 </p>
                                             </div>
-                                            <a href="#" class="btn btn--white">Book now!</a>
+                                            <a href="#popup" class="btn btn--white">Book now!</a>
                                         </div>
                                     </div>
                                 </div>
@@ -383,6 +387,29 @@
                 </div>
             </div>
         </footer>
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">
+                        Start booking now
+                    </h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small"> 
+                        Important &ndash; Please read these terms before booking
+                    </h3>
+                    <p class="popup__text">
+                            Lorem ipsum dolor sit amet, ut quaeque delicatissimi quo, prima alienum per ut, viris appellantur id mei. Pri ut aliquip recusabo, mea dicant timeam te. In ius nonumy appetere, an dictas forensibus sea. At vel esse error, duo denique recteque ut. Ea eirmod necessitatibus pri, assum iriure ut eum, qui admodum docendi quaerendum eu.
+                             Ex quaestio pertinacia sed. Ut eam nihil consetetur repudiandae, dicat integre elaboraret cu per, qui vocent habemus in. At vitae omnium eos, ei summo ornatus has. Ei laudem putent menandri sea, cu sea soluta aperiri signiferumque, putent postulant intellegam et vim.           
+                            Est ne recteque voluptatum, cer corpora. Et mutat discere ius, stet vide at sea, iisque eligendi gubergren et quo. Eos ex assentior rationibus.
+                    </p>
+                    <a href="#" class="btn btn--green">Book now</a>
+                </div>
+            </div>
+        </div>
         <!-- <section class="grid-test">
             <div class="row">
                 <div class="col-1-of-2">

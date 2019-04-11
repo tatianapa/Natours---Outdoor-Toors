@@ -1,0 +1,26 @@
+[debug] [2019-04-11T20:55:39.371Z] ----------------------------------------------------------------------
+[debug] [2019-04-11T20:55:39.374Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tania\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2019-04-11T20:55:39.374Z] CLI Version:   6.6.0
+[debug] [2019-04-11T20:55:39.374Z] Platform:      win32
+[debug] [2019-04-11T20:55:39.374Z] Node Version:  v8.11.3
+[debug] [2019-04-11T20:55:39.377Z] Time:          Thu Apr 11 2019 13:55:39 GMT-0700 (Pacific Daylight Time)
+[debug] [2019-04-11T20:55:39.377Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=514774675&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-04-11T20:57:35.955Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-04-11T20:57:56.971Z] Token Fetch Error: Error
+    at new FirebaseError (C:\Users\Tania\AppData\Roaming\npm\node_modules\firebase-tools\lib\error.js:9:18)
+    at Request._callback (C:\Users\Tania\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:30:31)
+    at self.callback (C:\Users\Tania\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at emitOne (events.js:116:13)
+    at Request.emit (events.js:211:7)
+    at Request.onRequestError (C:\Users\Tania\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:881:8)
+    at emitOne (events.js:116:13)
+    at ClientRequest.emit (events.js:211:7)
+    at TLSSocket.socketErrorListener (_http_client.js:387:9)
+    at emitOne (events.js:116:13)
