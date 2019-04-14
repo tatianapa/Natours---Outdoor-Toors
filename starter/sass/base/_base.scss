@@ -22,5 +22,10 @@ html{
     }
 }
 body{
+    padding: 3rem;
     box-sizing: border-box;
+
+    @include respond(tab-port){
+        padding: 0;//1rem = 8px, 8/16 = 50%
+    }
 }
